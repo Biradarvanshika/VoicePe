@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.52.0",
+    "@types/node": "^22.13.11",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "twilio": "^5.7.3"
+  }
+}
