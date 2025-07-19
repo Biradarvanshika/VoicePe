@@ -13,64 +13,57 @@ VoicePe: A Voice-Based Job Platform for India's Invisible Workforce
 <a href="https://github.com/Biradarvanshika/VoicePe/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
 </p>
 
-🎯 The Problem
-For 500 million+ daily wage workers in India—the plumbers, painters, electricians, and construction laborers who build our nation—finding the next job is a daily, uncertain struggle. Mainstream job platforms like LinkedIn or Naukri are inaccessible, requiring smartphones, internet access, and literacy. This digital divide forces workers to rely on unreliable word-of-mouth or exploitative middlemen who often take a 20-30% cut of their meager earnings, perpetuating a cycle of instability and debt.
+## 🎯 The Problem
 
-🚀 Our Solution: VoicePe
-VoicePe is a mobile job platform built for the real world. We are leveraging the most accessible technology available—the human voice—to create a fair and empowering job market.
+For **500 million+ daily wage workers** in India—the plumbers, painters, electricians, and construction laborers who build our nation—finding the next job is a daily, uncertain struggle. Mainstream job platforms like LinkedIn or Naukri are inaccessible, requiring smartphones, internet access, and literacy. This digital divide forces workers to rely on unreliable word-of-mouth or exploitative middlemen who often take a 20-30% cut of their meager earnings, perpetuating a cycle of instability and debt.
 
-How it works:
+## 🚀 Our Solution: VoicePe
 
-A worker calls our toll-free number.
+VoicePe is a mobile job platform built for the real world. We are leveraging the most accessible technology available—**the human voice**—to create a fair and empowering job market.
 
-Our AI-powered IVR system speaks to them in their local language, registering their skill (e.g., "Plumber") and location (e.g., "Hyderabad").
+**How it works:**
 
-Employers post jobs via our simple website or even an SMS.
+1. **A worker calls our toll-free number.**
+2. Our **AI-powered IVR system** speaks to them in their local language, registering their skill (e.g., "Plumber") and location (e.g., "Hyderabad").
+3. **Employers post jobs** via our simple website or even an SMS.
+4. The system **instantly matches** the job with nearby, relevant workers and notifies them.
+5. The employer and worker connect directly, **with no commission or fees.**
 
-The system instantly matches the job with nearby, relevant workers and notifies them.
+> Vahan is LinkedIn for gig workers. **VoicePe is the ambulance for invisible laborers.**
 
-The employer and worker connect directly, with no commission or fees.
+## ✨ Features
 
-Vahan is LinkedIn for gig workers. VoicePe is the ambulance for invisible laborers.
+* **Zero Literacy Required:** A 100% voice-only interface for workers.
+* **Works on Any Phone:** No smartphone or app needed. Works perfectly on basic 2G feature phones.
+* **Multilingual Support:** Designed for regional Indian languages and dialects.
+* **Direct Hiring:** Eliminates middlemen, ensuring fair wages for workers.
+* **Simple Employer Portal:** A clean, fast web interface for employers to post jobs in under 60 seconds.
 
-✨ Features
-Zero Literacy Required: A 100% voice-only interface for workers.
+## 🛠️ Technology Stack
 
-Works on Any Phone: No smartphone or app needed. Works perfectly on basic 2G feature phones.
+* **Frontend (Website):** React, Vite, Tailwind CSS
+* **Backend (IVR System):** Node.js, Express.js
+* **Database:** Supabase (PostgreSQL)
+* **Telephony & Voice AI:** Twilio (Voice, SMS, Speech-to-Text, Text-to-Speech)
+* **Deployment:** Vercel (for Frontend), Replit (for Backend)
 
-Multilingual Support: Designed for regional Indian languages and dialects.
+## 🏁 Getting Started (For Contributors)
 
-Direct Hiring: Eliminates middlemen, ensuring fair wages for workers.
+We are thrilled that you want to contribute to VoicePe! To get the project running locally, please follow the detailed instructions in our **CONTRIBUTING.md** file.
 
-Simple Employer Portal: A clean, fast web interface for employers to post jobs in under 60 seconds.
+## 🤝 How to Contribute
 
-🛠️ Technology Stack
-Frontend (Website): React, Vite, Tailwind CSS
-
-Backend (IVR System): Node.js, Express.js
-
-Database: Supabase (PostgreSQL)
-
-Telephony & Voice AI: Twilio (Voice, SMS, Speech-to-Text, Text-to-Speech)
-
-Deployment: Vercel (for Frontend), Replit (for Backend)
-
-🏁 Getting Started (For Contributors)
-We are thrilled that you want to contribute to VoicePe! To get the project running locally, please follow the detailed instructions in our CONTRIBUTING.md file.
-
-🤝 How to Contribute
 Contributions are the lifeblood of open source. We welcome contributions of all forms, from fixing typos and improving documentation to implementing major features.
 
-Find an issue you'd like to work on from our Issues Page. Look for issues labeled good first issue if you're new!
+1. Find an issue you'd like to work on from our [Issues Page](https://github.com/Biradarvanshika/VoicePe/issues). Look for issues labeled `good first issue` if you're new!
+2. Comment on the issue to let us know you're working on it.
+3. Follow the guidelines in our **CONTRIBUTING.md** file to submit your work.
+4. Please read our **CODE_OF_CONDUCT.md** to understand our community standards.
 
-Comment on the issue to let us know you're working on it.
+## 📄 License
 
-Follow the guidelines in our CONTRIBUTING.md file to submit your work.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Biradarvanshika/VoicePe/blob/main/LICENSE) file for details.
 
-Please read our CODE_OF_CONDUCT.md to understand our community standards.
-
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 <p align="center">
 Made with ❤️ for the hands that build our nation.
