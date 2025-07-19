@@ -1,6 +1,6 @@
 VoicePe: A Voice-Based Job Platform for India's Invisible Workforce
 <p align="center">
-<img src="https://raw.githubusercontent.com/Biradarvanshika/VoicePe/main/assets/voicepe-logo.jpg" alt="VoicePe Logo" width="150"/>
+<img src="https://github.com/Biradarvanshika/VoicePe/blob/main/assets/voicepe-logo.jpg.png" alt="VoicePe Logo" width="150"/>
 </p>
 
 <p align="center">
