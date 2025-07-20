@@ -156,7 +156,7 @@ const Header = ({ setCurrentPage }) => {
 
 const Footer = () => (
   <footer className="bg-gray-100 border-t border-gray-200">
-    <div className="container mx-auto px-6 py-6 text-center text-gray-500">
+    <div className="container mx-auto px-6 py-6 text-center text-[#6D4C41]">
       <p>&copy; {new Date().getFullYear()} VoicePe. A new voice for India's workforce.</p>
     </div>
   </footer>
