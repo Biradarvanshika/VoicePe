@@ -44,9 +44,9 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey);
 const classNames = (...classes) => classes.filter(Boolean).join(' ');
 
 // --- SVG Icons ---
-const VoicePeLogoIcon = ({ className }) => (
+const VoicePeLogoIcon = ({ classname }) => (
   <svg
-    className={className}
+    className={classname}
     viewBox="0 0 110 110"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@ const Header = ({ setCurrentPage }) => {
             className="flex items-center cursor-pointer"
           >
             <div className="w-10 h-10 flex items-center justify-center mr-2">
-                <VoicePeLogoIcon className="w-full h-full" />
+                <VoicePeLogoIcon classname="w-full h-full" />
             </div>
             <h1 className="text-2xl font-bold text-[#6D4C41]">VoicePe</h1>
           </div>
@@ -156,11 +156,12 @@ const Header = ({ setCurrentPage }) => {
 
 const Footer = () => (
   <footer className="bg-gray-100 border-t border-gray-200">
-    <div className="container mx-auto px-6 py-6 text-center text-gray-500">
+    <div className="container mx-auto px-6 py-6 text-center text-[#6D4C41]">
       <p>&copy; {new Date().getFullYear()} VoicePe. A new voice for India's workforce.</p>
     </div>
   </footer>
 );
+
 
 
 const HomePage = ({ setCurrentPage }) => {
