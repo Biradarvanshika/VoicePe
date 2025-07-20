@@ -116,7 +116,7 @@ const Header = ({ setCurrentPage }) => {
             className="flex items-center cursor-pointer"
           >
             <div className="w-10 h-10 flex items-center justify-center mr-2">
-                <VoicePeLogoIcon className="w-full h-full" />
+                <img src="/logo.png" alt="VoicePe Logo" className="w-10 h-10" />
             </div>
             <h1 className="text-2xl font-bold text-[#6D4C41]">VoicePe</h1>
           </div>
