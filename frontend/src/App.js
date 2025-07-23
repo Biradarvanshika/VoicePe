@@ -527,6 +527,7 @@ const PostAJobPage = () => {
                     Construction Labour
                   </option>
                   <option value="Plumber">Plumber</option>
+                  <option value="Welder">Welder</option>
                   <option value="Electrician">Electrician</option>
                   <option value="Painter">Painter</option>
                   <option value="Carpenter">Carpenter</option>
